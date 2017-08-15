@@ -1,0 +1,119 @@
+body {
+
+    margin: 0 auto;
+    background-image: url("/img/hp_3.png");
+
+    background-repeat: repeat;
+    /*background-repeat: repeat-y;*/
+    height: 1000px;
+}
+
+#main {
+    width: 900px;
+    height: auto;
+    margin: 0 auto;
+    background-color: lightgray;
+    /*border: 1px dotted red;*/
+
+}
+
+#content {
+    /*border: 1px dashed blueviolet;*/
+    width: 900px;
+    height: 100%;
+    margin: 0 auto;
+
+    /*padding: 10px 10px 10px 10px;*/
+    /*background-color: orange;*/
+
+}
+
+#posts {
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 700px;
+    /*border-right: 2px solid black;*/
+    height: 100%;
+    /*background-color: lightgray;*/
+}
+
+#every-post {
+    border-bottom: 1px dashed black;
+    margin-left: 20px;
+    padding: 15px;
+
+}
+
+#post-categorys {
+    float: left;
+    margin-left: 0;
+    /*margin-top: 20px;*/
+    background-color: lightslategray;
+    width: 150px;
+    height: 100%;
+    padding-left: 5px;
+    border-left: 2px solid black;
+
+}
+
+
+#welcome {
+
+    width: auto;
+    height: 50px;
+    color: #0d21ff;
+    font-weight: bold;
+    font-size: 170%;
+    align-items: center;
+    padding-left: 35px;
+    padding-top: 15px;
+}
+
+#form {
+    padding-left: 250px;
+    padding-top: 50px;
+}
+
+#mainAdmin {
+    width: 80%;
+    height: auto;
+    background-color: #0092ff;
+    margin:0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /*padding-left: 450px;*/
+}
+#addCategory{
+    width: 80%;
+    height: auto;
+    margin-left: 100px;
+    margin-top: 30px;
+    background-color: lightgray;
+    padding-top: 50px;
+    padding-left: 60px;
+}
+#addPost{
+    width: 80%;
+    height: auto;
+    margin-left: 100px;
+    margin-top: 50px;
+    background-color: lightgray;
+
+}
+#updatePost{
+    width: 80%;
+    height: auto;
+    margin-left: 100px;
+    margin-top: 50px;
+    background-color: lightgray;
+
+}
+#removePost{
+    width: 80%;
+    height: auto;
+    margin-left: 100px;
+    margin-top: 50px;
+    background-color: lightgray;
+    padding: 15px;
+}
